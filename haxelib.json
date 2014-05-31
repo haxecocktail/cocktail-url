@@ -1,0 +1,8 @@
+{
+    "name": "cocktail-url",
+    "url": "https://github.com/haxecocktail/cocktail-url",
+    "licence": "MIT",
+    "version": "0.0.1",
+    "description": "url parsing and serializing",
+    "contributors": ["Yannick Dominguez"]
+}
