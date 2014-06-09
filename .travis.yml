@@ -6,13 +6,10 @@ before_script:
   - sudo add-apt-repository ppa:eyecreate/haxe -y
   - sudo apt-get update
   - sudo apt-get install haxe -y
-  - sudo apt-get install gcc-multilib g++-multilib -y
   - mkdir ~/haxelib
   - haxelib setup ~/haxelib
-  - haxelib install hxcpp
-  - haxelib install munit
-  - mkdir build
-  - mkdir report
+  - haxelib install buddy
 
 script:
-  - haxelib run munit test -neko -cpp
+  - haxe test.hxml
+  - neko test.n
