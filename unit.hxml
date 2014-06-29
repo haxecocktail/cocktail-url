@@ -1,6 +1,7 @@
 ## Flash 9+
 -main unit.TestMain
 -lib buddy
+-lib utest
 
 -cp test
 -swf-version 11
@@ -11,6 +12,7 @@
 ## JavaScript
 -main unit.TestMain
 -lib buddy
+-lib utest
 -cp test
 -js build/js_test.js
 
@@ -19,6 +21,7 @@
 ## Neko
 -main unit.TestMain
 -lib buddy
+-lib utest
 -cp test
 -neko build/neko_test.n
 
@@ -27,6 +30,7 @@
 ## CPP
 -main unit.TestMain
 -lib buddy
+-lib utest
 
 -cp test
 #-D HXCPP_M64
